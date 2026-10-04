@@ -1,0 +1,11 @@
+{
+  "request_id": "demo-infeasible-001",
+  "stock": {"concentration": "1/10", "volume_nl": 100000},
+  "diluent": {"volume_nl": 1000000},
+  "pipette": {"min_volume_nl": 1000, "max_volume_nl": 10000, "step_nl": 100},
+  "well_capacity_nl": 50000,
+  "targets": [
+    {"well_id": "A1", "volume_nl": 20000, "concentration": "1/5"},
+    {"well_id": "A2", "volume_nl": 500, "concentration": "1/20"}
+  ]
+}

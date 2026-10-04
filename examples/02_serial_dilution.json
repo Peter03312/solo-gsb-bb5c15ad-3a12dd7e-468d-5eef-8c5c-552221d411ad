@@ -1,0 +1,15 @@
+{
+  "request_id": "demo-serial-001",
+  "stock": {"concentration": "1", "volume_nl": 100000},
+  "diluent": {"volume_nl": 10000000},
+  "pipette": {"min_volume_nl": 1000, "max_volume_nl": 50000, "step_nl": 500},
+  "well_capacity_nl": 100000,
+  "intermediates": [
+    {"id": "C1", "capacity_nl": 200000},
+    {"id": "C2", "capacity_nl": 200000}
+  ],
+  "targets": [
+    {"well_id": "B1", "volume_nl": 50000, "concentration": "1/20000"},
+    {"well_id": "B2", "volume_nl": 40000, "concentration": "1/20000"}
+  ]
+}
